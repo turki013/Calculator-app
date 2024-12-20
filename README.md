@@ -1,6 +1,10 @@
 
 
- Account-Based Calculator Application
+Here’s a professional description for your project to use on GitHub:
+
+---
+
+## Account-Based Calculator Application
 
 This project is a **Java-based application** that combines basic account management features with a calculator tool. The program allows users to create and manage accounts while offering security and accessibility. After signing up and logging in, users gain access to a calculator within the application.
 
@@ -27,3 +31,6 @@ This project showcases foundational programming skills, emphasizing **user inter
 ### Purpose:
 The project serves as an educational exercise in Java programming, focusing on integrating account management with a practical tool like a calculator. It demonstrates proficiency in **OOP principles**, logical control structures, and modular coding practices.
 
+--- 
+
+Feel free to edit or expand this description as needed for your GitHub repository!
