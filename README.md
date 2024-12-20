@@ -1,6 +1,6 @@
 
 
-Here’s a professional description for your project to use on GitHub:
+
 
 ---
 
@@ -31,6 +31,4 @@ This project showcases foundational programming skills, emphasizing **user inter
 ### Purpose:
 The project serves as an educational exercise in Java programming, focusing on integrating account management with a practical tool like a calculator. It demonstrates proficiency in **OOP principles**, logical control structures, and modular coding practices.
 
---- 
 
-Feel free to edit or expand this description as needed for your GitHub repository!
