@@ -11,7 +11,7 @@ public class Account2Class {
     static boolean isLoggedIn = false;
     static Scanner input = new Scanner(System.in);
 
-    static void sginUp() {
+    static void signUp() {
 
         System.out.println("Enter the user: ");
         user = input.nextLine();
@@ -101,7 +101,8 @@ class Calculator {
             System.out.println("2. Subtract");
             System.out.println("3. Multiply");
             System.out.println("4. Divide");
-            System.out.println("5. Exit");
+            System.out.println("5.Esspression");
+            System.out.println("6. Exit");
             int option = Account2Class.input.nextInt();
             switch (option) {
                 case 1:
@@ -133,8 +134,17 @@ class Calculator {
                     System.out.println("The result is: " + divide(g, h));
                     break;
                 case 5:
-                    System.exit(0);
+                    System.out.println("Enter the first number: ");
+                    int i = Account2Class.input.nextInt();
+                    System.out.println("Enter the second number: ");
+                    int j = Account2Class.input.nextInt();
+                    System.out.println("Enter the third number: ");
+                    int k = Account2Class.input.nextInt();
+                    System.out.println("The result is: " + Expression(i, j, k));
+                    break;
+                case 6:
                     System.out.println("Goodbye");
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Invalid option");
@@ -163,4 +173,9 @@ class Calculator {
         }
         return a / b;
     }
+
+    static int Expression(int a, int b, int c) {
+        return a + b * c;
+    }
+
 }
