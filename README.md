@@ -1,34 +1,63 @@
+Project Overview: User Management and Calculator System
 
+This project consists of two main components, implemented as separate classes: Account2Class and Calculator. The project provides a comprehensive user account management system and a fully functional calculator with extended capabilities. Below is an overview of the features and functionalities:
 
+Account2Class: User Account Management System
 
+The Account2Class is designed to manage user accounts effectively. It includes the following key functionalities:
 
----
+Features:
+	1.	Sign-Up System:
+	•	Allows users to create an account by providing a username and password.
+	•	Includes a password confirmation step to ensure consistency.
+	2.	Login System:
+	•	Validates user credentials to grant access.
+	•	Displays the last login timestamp upon successful authentication.
+	3.	Password Management:
+	•	Forget Password: Enables users to reset their password if they forget it by verifying their username.
+	•	Reset Password: Allows users to change their password after confirming their current password.
+	4.	Account Deletion:
+	•	Offers the option to delete an account with a confirmation step.
+	5.	Security Features:
+	•	Prevents unauthorized access by validating user credentials.
+	•	Stores the last login time to track user activity.
 
-## Account-Based Calculator Application
+Calculator: Arithmetic Operations and Expression Evaluation
 
-This project is a **Java-based application** that combines basic account management features with a calculator tool. The program allows users to create and manage accounts while offering security and accessibility. After signing up and logging in, users gain access to a calculator within the application.
+The Calculator class is a menu-driven application that provides essential arithmetic operations and expression evaluation.
 
-### Features:
-1. **Sign Up**: Users can create a new account by providing their credentials.
-2. **Login**: Existing users can log in to access the calculator functionality.
-3. **Forgot Password**: Allows users to reset their password if they forget it.
-4. **Reset Password**: Users can manually reset their account password.
-5. **Delete Account**: Option to permanently delete an account from the system.
-6. **Exit**: Safely exit the application.
+Features:
+	1.	Arithmetic Operations:
+	•	Addition: Adds two numbers.
+	•	Subtraction: Subtracts the second number from the first.
+	•	Multiplication: Multiplies two numbers.
+	•	Division: Divides the first number by the second, with error handling for division by zero.
+	2.	Expression Evaluation:
+	•	Evaluates mathematical expressions of the form a + b * c.
+	3.	User Interaction:
+	•	Provides a clear and interactive menu for users to choose operations.
+	•	Continuously accepts user input until the user selects the exit option.
+	4.	Error Handling:
+	•	Handles invalid input gracefully.
+	•	Prevents division by zero.
+	5.	Extensible Design:
+	•	Modular structure allows for the addition of new operations with minimal effort.
 
-### Workflow:
-- On launching the application, the user is greeted with a menu offering account management options.
-- After successful account creation and login, the user can access a basic calculator.
-- User-friendly prompts and clear navigation make the application intuitive to use.
+Implementation Details
+	•	Programming Language: Java
+	•	Input/Output: Uses the Scanner class for user input and console output for interaction.
+	•	Date and Time: Leverages LocalDateTime to track login activity.
+	•	Modular Design: Both classes are independent, making the codebase maintainable and scalable.
 
-### Technical Details:
-- **Language**: Java
-- **Concepts Used**: Object-Oriented Programming (OOP), `do-while` loops, and `switch` statements.
-- **Dependencies**: Utilizes the `Scanner` class for user input.
+Example Use Cases:
+	1.	User Management:
+	•	A user can create an account, log in, and manage their credentials securely.
+	2.	Calculator:
+	•	Perform quick calculations or evaluate complex mathematical expressions.
 
-This project showcases foundational programming skills, emphasizing **user interaction**, **input validation**, and **menu-driven application development**.
+How to Use
+	1.	Run the program and follow the on-screen instructions.
+	2.	Use the account system to create and manage user profiles.
+	3.	Access the calculator to perform desired arithmetic operations.
 
-### Purpose:
-The project serves as an educational exercise in Java programming, focusing on integrating account management with a practical tool like a calculator. It demonstrates proficiency in **OOP principles**, logical control structures, and modular coding practices.
-
-
+This project showcases fundamental object-oriented programming principles and highlights the seamless integration of user account management and mathematical computation functionalities. It is an excellent starting point for developing more advanced applications with enhanced security and features.
